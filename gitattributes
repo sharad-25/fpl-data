@@ -1,0 +1,3 @@
+# The draws are a raw int8 array. Without this git treats them as text, tries
+# to diff them, and a one-gameweek change reads as a 600 KB rewrite.
+*.i8 binary
